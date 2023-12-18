@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Display ile responsive yapıya göre blok gösterme/gizleme</title>
+</head>
+
+<body>
+    <h1 class="d-none d-sm-none  bg-warning">XS-Mobil Görünümlü</h1>
+    <h1 class="d-none d-sm-block d-md-none bg-primary">SM-Tablet Görünümlü</h1>
+    <h1 class="d-none d-md-block d-lg-none bg-success">MD-Laptop Görünümlü</h1>
+    <h1 class="d-none d-lg-block d-xl-none bg-danger">LG-Normal Görünümlü</h1>
+    <h1  class="d-none d-xl-block bg-info">XL-Büyük Ekran Görünümlü </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-info">1. Kutu</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-warning">2. Kutu</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-danger">3. Kutu</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-success">4. Kutu</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-primary d-lg-none d-xl-block">5. Kutu</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-secondary d-lg-none d-xl-block">Magnam.6. Kutu
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
